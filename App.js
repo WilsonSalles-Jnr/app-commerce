@@ -6,20 +6,17 @@ import Scroller from './Components/Scroller';
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* <SafeAreaView> */}
       <Header />
       <Scroller />
-      <Text>Wilson</Text>
       <StatusBar style="auto" />
-
-      {/* </SafeAreaView> */}
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
+    flex: 1,
     marginTop: 30,
-    backgroundColor: '#fff',
+    backgroundColor: '#E2E2E2',
   },
 });
